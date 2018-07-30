@@ -17,7 +17,8 @@
     "moduleFileExtensions": [
       "js",
       "ts"
-    ]
+    ],
+    "testURL": "http://localhost"
   },
   "dependencies": {
     "express": "^4.16.3",
