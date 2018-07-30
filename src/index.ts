@@ -1,7 +1,6 @@
-import supertest = require("supertest");
+import container from "./config/TestConfig";
+import Requester, { T_ResponseContent } from './Requester';
 
-import app from './App';
-
-supertest(app).get("/user").end((err, res) => {
-  console.log("res = " + JSON.stringify(res));
-});
+const requester: Requester = container.get<Requester>(Requester);
+requester.get("/user");
+requester.lastResponse.then((res: T_ResponseContent) => console.log("response = " + JSON.stringify(res)));
