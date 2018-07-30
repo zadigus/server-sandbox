@@ -3,10 +3,10 @@ import "reflect-metadata";
 import { Container } from "inversify";
 import { Express } from "express";
 
-import SERVICE_IDENTIFIER from "../constants/Identifiers";
+import SERVICE_IDENTIFIER from "../../../src/constants/Identifiers";
 
 import Requester from "../Requester";
-import App from "../App";
+import App from "../../../src/App";
 
 let container: Container = new Container();
 

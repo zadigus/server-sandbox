@@ -1,5 +1,5 @@
-import container from "../../src/config/TestConfig";
-import Requester, { T_ResponseContent } from '../../src/Requester';
+import container from "./config/TestConfig";
+import Requester, { T_ResponseContent } from './Requester';
 
 import { loadFeature, defineFeature } from "jest-cucumber";
 import { ParsedFeature } from "jest-cucumber/dist/src/models";

@@ -2,7 +2,7 @@ import supertest = require("supertest");
 import {Express} from "express";
 import {injectable, inject} from "inversify";
 
-import SERVICE_IDENTIFIER from "./constants/Identifiers";
+import SERVICE_IDENTIFIER from "../../src/constants/Identifiers";
 
 type T_Status = number;
 type T_Headers = any;
