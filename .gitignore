@@ -61,4 +61,7 @@ typings/
 .next
 
 # build
-server/
+dist/
+
+# lock files
+package-lock.json

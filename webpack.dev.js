@@ -10,7 +10,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     chunkFilename: '[name].js',
-    path: path.resolve(__dirname, 'server'),
+    path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'commonjs'
   },
   resolve: {
