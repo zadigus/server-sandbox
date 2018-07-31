@@ -1,0 +1,3 @@
+[submodule "externals/testing-helpers"]
+	path = externals/testing-helpers
+	url = https://zadigus@bitbucket.org/softozor/server-testing-helpers.git
