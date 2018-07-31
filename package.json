@@ -18,7 +18,10 @@
       "js",
       "ts"
     ],
-    "testURL": "http://localhost"
+    "testURL": "http://localhost",
+    "modulePaths": [
+      "externals/testing-helpers/src"
+    ]
   },
   "dependencies": {
     "express": "^4.16.3",

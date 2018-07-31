@@ -12,5 +12,11 @@
     "types": ["reflect-metadata"],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.steps.ts",
+    "**/*.test.ts"
+  ]
 }

@@ -1,6 +1,6 @@
-import buildRequester from "./ServerRequest/config/ConfigurationBuilder";
-import Requester from "./ServerRequest/Requester/Requester";
-import { T_ResponseContent } from "./ServerRequest/Requester/ResponseData";
+import buildRequester from "ServerRequest/config/ConfigurationBuilder";
+import Requester from "ServerRequest/Requester/Requester";
+import { T_ResponseContent } from "ServerRequest/Requester/ResponseData";
 import App from "../../src/App";
 
 import { loadFeature, defineFeature } from "jest-cucumber";
