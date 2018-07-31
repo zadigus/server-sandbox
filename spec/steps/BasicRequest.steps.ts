@@ -1,12 +1,14 @@
-import container from "./config/TestConfig";
-import Requester, { T_ResponseContent } from './Requester';
+import buildRequester from "./ServerRequest/config/ConfigurationBuilder";
+import Requester from "./ServerRequest/Requester/Requester";
+import { T_ResponseContent } from "./ServerRequest/Requester/ResponseData";
+import App from "../../src/App";
 
 import { loadFeature, defineFeature } from "jest-cucumber";
 import { ParsedFeature } from "jest-cucumber/dist/src/models";
 
 const feature: ParsedFeature = loadFeature("./spec/features/BasicRequest.feature");
 
-const requester: Requester = container.get<Requester>(Requester);
+const requester: Requester = buildRequester(App);
 
 defineFeature(feature, test => {
   test("I can test the status value of an HTTP request", ({ given, when, then, pending }) => {
