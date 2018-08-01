@@ -75,3 +75,9 @@ resolve: {
 ```
 
 That way, the built `dist/main.js` file from our typescript code would contain a correct reference to the `ServerRequest` module. 
+
+* because the transpilation scans all the typescript code, it also scans the test code where we get e.g. the error that the `describe`, or `expect`, or `it` methods are not found. To solve that issue, we added
+
+```import "jest";```
+
+in our test code.
