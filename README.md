@@ -5,7 +5,7 @@ This repository is meant to be used by the Softozor's team which is currently wo
 
 ### Stop bothering with relative paths when we import modules in Typescript
 
-In our example code, we could've had 
+We could've seen 
 
 ```
 import buildRequester from "../../externals/testing-helpers/src/ServerRequest/config/ConfigurationBuilder"
