@@ -11,7 +11,7 @@ We could've seen
 import buildRequester from "../../externals/testing-helpers/src/ServerRequest/config/ConfigurationBuilder"
 ```
 
-in the code written in [the BasicRequest step file](https://github.com/zadigus/server-sandbox/blob/master/spec/steps/BasicRequest.steps.ts). It ends up to now read like so
+in the code written in [the BasicRequest step file](https://github.com/zadigus/server-sandbox/blob/master/spec/steps/BasicRequest.steps.ts), which is very nasty. If we'd need to write so much to import any of our external modules, importing code would really be painful. It ends up to now read like so
 
 ```
 import buildRequester from "ServerRequest/config/ConfigurationBuilder"
