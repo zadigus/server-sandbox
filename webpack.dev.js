@@ -14,7 +14,10 @@ module.exports = {
     libraryTarget: 'commonjs'
   },
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
+    alias: {
+      App: path.resolve(__dirname, 'src/App/'),
+    }
   },
   node: {
     fs: 'empty'

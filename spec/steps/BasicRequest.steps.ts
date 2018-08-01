@@ -1,8 +1,9 @@
 import buildRequester from "ServerRequest/config/ConfigurationBuilder";
 import Requester from "ServerRequest/Requester/Requester";
 import { T_ResponseContent } from "ServerRequest/Requester/ResponseData";
-import App from "../../src/App";
+import App from "App/App";
 
+import "jest";
 import { loadFeature, defineFeature } from "jest-cucumber";
 import { ParsedFeature } from "jest-cucumber/dist/src/models";
 

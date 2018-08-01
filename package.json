@@ -20,7 +20,8 @@
     ],
     "testURL": "http://localhost",
     "modulePaths": [
-      "externals/testing-helpers/src"
+      "externals/testing-helpers/src",
+      "src"
     ]
   },
   "dependencies": {
