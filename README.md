@@ -1,5 +1,5 @@
 # server-sandbox
-This repository is meant to be used by the Softozor's team which is currently working on the realization of the Shopozor project. We test stuff that we might find useful for the end project. In this readme, we list up the things we found interesting (can be configuration, libraries, tools, etc.).
+This repository is meant to be used by the [Softozor](http://www.softozor.ch) team which is currently working on the realization of the Shopozor project. We test stuff that we might find useful for the end project. In this readme, we list up the things we found interesting (can be configuration, libraries, tools, etc.).
 
 ## Project configuration
 
