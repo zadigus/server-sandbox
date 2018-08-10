@@ -6,16 +6,15 @@
     "allowJs": true,
     "sourceMap": true,
     "outDir": "dist",
-    "lib": [
-      "esnext", "dom", "es6"
-    ],
+    "lib": ["esnext", "dom", "es6"],
     "types": ["reflect-metadata"],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "baseUrl": "src",
     "paths": {
       "App/*": ["App/*"],
-      "ServerRequest/*": ["../externals/testing-helpers/src/ServerRequest/*"]
+      "ServerRequest/*": ["../externals/testing-helpers/src/ServerRequest/*"],
+      "RandomUtils/*": ["../externals/testing-helpers/src/RandomUtils/*"]
     }
   }
 }
