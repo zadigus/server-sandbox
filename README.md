@@ -48,6 +48,8 @@ throws errors we don't care about in our tests. Here's the solution that we foun
 },
 ```
 
+A `moduleNameMapper` entry might be necessary in the above section too.
+
 In the above snippet, the `"externals/testing-helpers/src"` path is relevant for including the `ServerRequest` module. 
 
 * add the `baseUrl` and `paths` entries to the `tsconfig.json` file:
